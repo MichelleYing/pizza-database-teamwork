@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.registerCustomerController">
+   <children>
+      <Button fx:id="registerCus" layoutX="239.0" layoutY="317.0" mnemonicParsing="false" onMouseClicked="#registerCus" prefHeight="58.0" prefWidth="173.0" text="Register!">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <PasswordField fx:id="cus_password" layoutX="169.0" layoutY="83.0" prefHeight="40.0" prefWidth="314.0" promptText="Password" />
+      <PasswordField fx:id="cus_password_confirmation" layoutX="169.0" layoutY="137.0" prefHeight="40.0" prefWidth="314.0" promptText="Comfirm your password" />
+      <TextField fx:id="cus_name" layoutX="169.0" layoutY="29.0" prefHeight="40.0" prefWidth="314.0" promptText="User name" />
+      <Label fx:id="backToLoginCus" layoutX="555.0" layoutY="367.0" onMouseClicked="#backToLoginCus" prefHeight="15.0" prefWidth="98.0" text="Back to login" textFill="#767676" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="newEmployee" layoutX="169.0" layoutY="286.0" onMouseClicked="#newEmployee" prefHeight="15.0" prefWidth="111.0" text="new employee" textFill="#8c8787" underline="true" />
+      <TextField fx:id="cus_addr" layoutX="169.0" layoutY="192.0" prefHeight="40.0" prefWidth="314.0" promptText="Address" />
+      <TextField fx:id="cus_tele" layoutX="169.0" layoutY="246.0" prefHeight="40.0" prefWidth="314.0" promptText="Telephone Number" />
+      <TextField fx:id="cus_post_code" layoutX="499.0" layoutY="192.0" prefHeight="40.0" prefWidth="111.0" promptText="Postal code" />
+   </children>
+</AnchorPane>
