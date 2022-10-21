@@ -8,10 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class registerCustomerController {
     @FXML
@@ -33,6 +30,8 @@ public class registerCustomerController {
     protected Label newEmployee;
     @FXML
     protected Label backToLoginCus;
+
+    private boolean postcodeFind = false;
     Statement stmt;
     Connection conn;
     @FXML
@@ -60,16 +59,32 @@ public class registerCustomerController {
             stmt = conn.createStatement();
             stmt.execute("use ilovepizza");
 
-            stmt.execute("INSERT INTO customer (cus_name,cus_password,cus_tele,cus_addr,cus_post_code) VALUES ('"+cus_name.getText()+"','"
-                                                                                                                 +cus_password.getText()+"','"
-                                                                                                                 +cus_tele.getText()+"','"
-                                                                                                                 +cus_addr.getText()+"','"
-                                                                                                                 +cus_post_code.getText()
-                                                                                                                 +"')");
+            ResultSet rs = stmt.executeQuery("SELECT post_id from post_code WHERE post_code = '"+cus_post_code.getText()+"'");
+            if(!rs.next()){
+                stmt.execute("INSERT INTO post_code (post_code) VALUES ('"+cus_post_code.getText()+"')");
+                ResultSet rs1 = stmt.executeQuery("SELECT post_id from post_code WHERE post_code = '"+cus_post_code.getText()+"'");
+                if(rs1.next()){
+                    stmt.execute("INSERT INTO customer (cus_name,cus_password,cus_tele,cus_addr,post_id) VALUES ('"+cus_name.getText()+"','"
+                            +cus_password.getText()+"','"
+                            +cus_tele.getText()+"','"
+                            +cus_addr.getText()+"','"
+                            +rs1.getInt(1)
+                            +"')");
+                }
+            }else{
+                stmt.execute("INSERT INTO customer (cus_name,cus_password,cus_tele,cus_addr,post_id) VALUES ('"+cus_name.getText()+"','"
+                        +cus_password.getText()+"','"
+                        +cus_tele.getText()+"','"
+                        +cus_addr.getText()+"','"
+                        +rs.getInt(1)
+                        +"')");
+            }
+
+
             System.out.println("new customer created");
             Stage window = (Stage) registerCus.getScene().getWindow();
             Scene scene = new Scene(new FXMLLoader(ilovepizzaApplication.class.getResource("loginPage.fxml")).load(),640,400);
-
+            window.setScene(scene);
             stmt.close();
             conn.close();
 

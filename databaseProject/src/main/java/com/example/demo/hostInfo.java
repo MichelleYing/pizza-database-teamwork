@@ -9,7 +9,7 @@ public class hostInfo {
     private static String USER;
     private static String PASS;
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://LocalHost:3306";
+    private static final String DB_URL = "jdbc:mysql://LocalHost:3306/ilovepizza";
 
 //    public static void main(String[] args) {
 //        System.out.println(readin(1,1));

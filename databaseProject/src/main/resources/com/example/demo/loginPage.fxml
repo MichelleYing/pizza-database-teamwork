@@ -59,7 +59,7 @@
             </Label>
             <Label fx:id="createAnAccount" layoutX="199.0" layoutY="251.0" onMouseClicked="#createAnAccountButtonClick" prefHeight="26.0" prefWidth="121.0" text="create an account" textFill="#968d8d" underline="true" />
             <Label fx:id="firstTimeRunning" layoutX="442.0" layoutY="371.0" onMouseClicked="#firstTimeRunning" prefHeight="15.0" prefWidth="189.0" text="first time running on this device?" textFill="#848080" underline="true" />
-            <CheckBox fx:id="checkBoxEmployee" layoutX="363.0" layoutY="256.0" mnemonicParsing="false" text="Employee" />
+            <CheckBox fx:id="checkBoxEmployee" layoutX="363.0" layoutY="256.0" mnemonicParsing="false" text="Employee" visible="false" />
       </children>
     </AnchorPane>
   </children>

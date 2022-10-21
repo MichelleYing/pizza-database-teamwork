@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f7dec9f-a18f-41d0-b96b-66580134166c" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FXVoctHUXEG0ERsmfER7Rx9VYc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35452962" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zhefan Cheng\OneDrive\桌面\Garrus\database\project\databaseProject\src\main\resources\com\example\demo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="hostConnectorController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.hostConnectorController" />
+      <module name="databaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hostInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.hostInfo" />
+      <module name="databaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ilovepizzaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ilovepizzaApplication" />
+      <module name="databaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orderHistoryController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.orderHistoryController" />
+      <module name="databaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.test" />
+      <module name="databaseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.ilovepizzaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6fab5b4d-472b-4b1e-945c-3f6befe7a0a1" name="Changes" comment="" />
+      <created>1664638592310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664638592310</updated>
+      <workItem from="1664638593757" duration="5623000" />
+      <workItem from="1664644670498" duration="34000" />
+      <workItem from="1664649245421" duration="5455000" />
+      <workItem from="1664666145878" duration="2754000" />
+      <workItem from="1664669070500" duration="58000" />
+      <workItem from="1664715379117" duration="13446000" />
+      <workItem from="1664798647841" duration="4972000" />
+      <workItem from="1664803862895" duration="1309000" />
+      <workItem from="1664806514772" duration="3456000" />
+      <workItem from="1664910180609" duration="4841000" />
+      <workItem from="1664960261128" duration="2762000" />
+      <workItem from="1664969131815" duration="41000" />
+      <workItem from="1664970281839" duration="5015000" />
+      <workItem from="1665150323704" duration="703000" />
+      <workItem from="1665151856194" duration="5234000" />
+      <workItem from="1665415040319" duration="7858000" />
+      <workItem from="1665488586958" duration="3380000" />
+      <workItem from="1665492739701" duration="1467000" />
+      <workItem from="1665500556997" duration="2881000" />
+      <workItem from="1665522776872" duration="7863000" />
+      <workItem from="1665567950631" duration="9446000" />
+      <workItem from="1665612244208" duration="11714000" />
+      <workItem from="1665675878342" duration="4003000" />
+      <workItem from="1665699066393" duration="12093000" />
+      <workItem from="1665774485230" duration="10998000" />
+      <workItem from="1665875452802" duration="1195000" />
+      <workItem from="1665919998789" duration="964000" />
+      <workItem from="1665926151272" duration="6953000" />
+      <workItem from="1665936132436" duration="790000" />
+      <workItem from="1665940684403" duration="953000" />
+      <workItem from="1665949472633" duration="2511000" />
+      <workItem from="1665991815734" duration="15562000" />
+      <workItem from="1666011015385" duration="18340000" />
+      <workItem from="1666030985236" duration="669000" />
+      <workItem from="1666033943960" duration="1112000" />
+      <workItem from="1666044975721" duration="2810000" />
+      <workItem from="1666292704724" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
